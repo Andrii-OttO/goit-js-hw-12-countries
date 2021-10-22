@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+    <link href="node_modules/@pnotify/core/dist/BrightTheme.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
 </head>
 <body>
-    <input type='text' class='input' placeholder='Найти страну'>
+    <input type='text' class='input' name="query" placeholder='Найти страну'>
+    <ul class = country_list></ul>
+    <ul class="gallery"></ul>
     <script src='./src/index.js'></script>
+    <script src='./src/fetchCountries.js'></script>
 </body>
 </html>
