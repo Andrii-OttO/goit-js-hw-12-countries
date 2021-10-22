@@ -2,6 +2,7 @@
 import country from './tamplate/country.hbs'
 import countryList from './tamplate/country-list.hbs'
 import ApiSearch from './fetchCountries'
+import './styles.css'
 
 let debounce = require('lodash.debounce');
 import {alert} from '@pnotify/core';

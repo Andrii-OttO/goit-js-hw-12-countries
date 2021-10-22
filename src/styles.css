@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    margin: 40px;
+} 
+.description_item:not(:last-child){
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.languages_item{
+margin-bottom: 10px;
+list-style: none;
+}
+.languages_list{
+    list-style: none;
+}
+contry_name{
+    list-style: none;
+    margin: 10px;
+}
+country_item{
+    font-size:20px;
+    font-weight: bold;
+}
+.country-flag{
+     width: 400px;
+    display: block;
+    margin-left: 50ps;
+    position: absolute;
+    padding: 50px;
+}
+input{
+    width: 250px;
+    height: 32px;
+    border: 2px solid rgb(15, 14, 14);
+    border-radius: 5px;
+}
