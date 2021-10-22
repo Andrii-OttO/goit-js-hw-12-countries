@@ -38,7 +38,8 @@ function foundCountry(){
         makeCountryList(response)
         }
         else if(response.length >= 10){
-            alert({text: 'too many matches found. Please, enter a more specific query'})
+            alert({text: 'too many matches found. Please, enter a more specific query',
+            delay: 1000,})
         }
     })
 }
